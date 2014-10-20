@@ -1,0 +1,52 @@
+<sprites>
+	<sprite name="sprite0">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/fenrir.png"></image>
+	</sprite>
+	<sprite name="sprite1">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/sp_effect_frozen_0.png"></image>
+	</sprite>
+	<sprite name="sprite2">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/spr_char_knight_3.png"></image>
+	</sprite>
+	<sprite name="sprite3">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/spr_guiactionbutton_0.png"></image>
+	</sprite>
+	<sprite name="sprite4">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/spr_joystickstick_0.png"></image>
+	</sprite>
+	<sprite name="sprite5">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/spr_mob_bee_0.png"></image>
+	</sprite>
+	<sprite name="sprite6">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/spr_pause_bagslot_backplate_0.png"></image>
+	</sprite>
+	<sprite name="sprite7">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/spr_pause_stat_stats_remaining_0.png"></image>
+	</sprite>
+	<sprite name="sprite8">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/spr_skill_hammer_drop_hammer_0.png"></image>
+	</sprite>
+	<sprite name="sprite9">
+		<width>32</width>
+		<height>32</height>
+		<image src="images/spr_skill_icon_hammer_drop_0.png"></image>
+	</sprite>
+</sprites>

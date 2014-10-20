@@ -1,0 +1,35 @@
+#ifndef INPUTEVENTHANDLER_H
+#define INPUTEVENTHANDLER_H
+
+#include "InputKeyEvent.h"
+#include "InputMouseEvent.h"
+#include "InputTouchEvent.h"
+
+/*
+ * Base class for handling input events (keyboard, touch, mouse, etc.)
+ *
+ * */
+
+
+class InputEventHandler
+{
+public:
+    InputEventHandler();
+
+    //Fired when key is pressed
+    virtual void OnKeyPressEvent(InputKeyEvent *e) {}
+    //Fired when key is released
+    virtual void OnKeyReleaseEvent(InputKeyEvent *e){}
+    //Fired when mouse button is pressed
+    virtual void OnMousePressEvent(InputMouseEvent *e){}
+    //Fired when mouse button is released
+    virtual void OnMouseReleaseEvent(InputMouseEvent *e){}
+    //Fired when mouse button is moved
+    virtual void OnMouseMoveEvent(InputMouseEvent *e){}
+    //Fired when a touch event (touch begin, touch end, etc.)
+    virtual void OnTouchEvent(InputTouchEvent *e){}
+    
+
+};
+
+#endif // INPUTEVENTHANDLER_H

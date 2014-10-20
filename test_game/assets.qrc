@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>fenrir.png</file>
+        <file>talk_button.png</file>
+        <file alias="sheet0.png">assets/compiled/sheet0.png</file>
+        <file alias="sprite0.sprbin">assets/compiled/sprite0.sprbin</file>
+        <file alias="sprite1.sprbin">assets/compiled/sprite1.sprbin</file>
+        <file alias="sprite2.sprbin">assets/compiled/sprite2.sprbin</file>
+        <file alias="sprite3.sprbin">assets/compiled/sprite3.sprbin</file>
+        <file alias="sprite4.sprbin">assets/compiled/sprite4.sprbin</file>
+        <file alias="sprite5.sprbin">assets/compiled/sprite5.sprbin</file>
+        <file alias="sprite6.sprbin">assets/compiled/sprite6.sprbin</file>
+        <file alias="sprite7.sprbin">assets/compiled/sprite7.sprbin</file>
+        <file alias="sprite8.sprbin">assets/compiled/sprite8.sprbin</file>
+        <file alias="sprite9.sprbin">assets/compiled/sprite9.sprbin</file>
+    </qresource>
+    <qresource prefix="/new/prefix1">
+        <file>assets/t.wav</file>
+        <file>assets/test.ogg</file>
+    </qresource>
+</RCC>
